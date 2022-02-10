@@ -17,8 +17,10 @@ function generatePhoneNumber(array) {
   }
   return  "(" + telNumber.substring(0, 2) + ") " + telNumber.substring(2, 7) + "-" + telNumber.substring(7, 11);
 }
-// Foi usado o ".join()" para transformar o array em uma string e utilizar as propriedades de ".substring()". Informações retiradas da documentação.
-// Links: .Join() - [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join#example_joining_an_array_three_different_ways], .substring() - [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/substring].
+// Foi utilizado o ".join()" para transformar o array em uma string e utilizar as propriedades de ".substring()". Informações retiradas da documentação.
+// Links: 
+// .Join() - [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join#example_joining_an_array_three_different_ways]; 
+// .substring() - [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/substring].
 
 // Desafio 12
 function triangleCheck(lineA, lineB, lineC) {
@@ -30,9 +32,21 @@ function triangleCheck(lineA, lineB, lineC) {
 }
 
 // Desafio 13
-function hydrate() {
-  // seu código aqui
+function hydrate(string) {
+  let array = string.match(/[1-9]/g);
+  let total = 0;
+  for (index of array) {
+    total += parseInt(index);
+  }
+  if (total === 1) {
+    return parseInt(total) + " copo de água";
+  } 
+    return parseInt(total) + " copos de água";
 }
+// Foi utilizado o ".match(/[1-9]/g)" para returnar os números encontrados no intervalo de 01 à 09 e o "parseInt" para analizar e retonar o número inteiro da variável total. Informações retiradas da documentação.
+// Links: 
+// .match() - [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/match];
+// parseInt - [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseInt].
 
 module.exports = {
   generatePhoneNumber,
