@@ -21,8 +21,12 @@ function generatePhoneNumber(array) {
 // Links: .Join() - [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join#example_joining_an_array_three_different_ways], .substring() - [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/substring].
 
 // Desafio 12
-function triangleCheck() {''
-  // seu código aqui
+function triangleCheck(lineA, lineB, lineC) {
+  if (lineA > lineB + lineC || lineB > lineA + lineC || lineC > lineA + lineB && lineA < Math.abs(lineB - lineC) || lineB < Math.abs(lineA - lineC) || lineC < Math.abs(lineA - lineB))
+  {
+    return false;
+  }
+  return true;
 }
 
 // Desafio 13
