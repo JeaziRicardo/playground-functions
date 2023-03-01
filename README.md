@@ -345,7 +345,7 @@ String retornada:
 
 <details>
 
-Esse projeto foi desenvolvido para fins de aprendizado como parte do curso da [Trybe](https://www.betrybe.com/). A estrutura inicial do projeto assim como os requisitos a serem desenvolvidos, foram desenvolvidas pela equipe de currículo do módulo de FrontEnd do curso. Eu, [Jeazi Ricardo](https://www.linkedin.com/in/jeaziricardo/), desenvolvi os trechos de códigos localizados em `src/challenges.js` e `src/challenges2.js`.
+Esse projeto foi desenvolvido para fins de aprendizado como parte do curso da [Trybe](https://www.betrybe.com/). A estrutura inicial do projeto assim como os requisitos a serem desenvolvidos, foram desenvolvidas pela equipe de currículo do módulo de Fundamentos do curso. Eu, [Jeazi Ricardo](https://www.linkedin.com/in/jeaziricardo/), desenvolvi os trechos de códigos localizados em `src/challenges.js` e `src/challenges2.js`.
 
 É permitido baixar ou clonar o repositório para fins de estudo. No entanto, não é permitida a publicação de cópias integrais ou parciais deste projeto. Esta notificação não se aplica às bibliotecas e dependências, que estão sujeitas às suas respectivas licenças.
 
